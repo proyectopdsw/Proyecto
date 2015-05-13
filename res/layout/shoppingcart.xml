@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent"
+	android:layout_width="fill_parent" android:background="#FE9A2E">
+
+	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textColor="#000000"
+		android:textSize="24sp" android:layout_margin="5sp" android:text="@string/Carrito"></TextView>
+
+	<TextView
+	    android:id="@+id/TextViewSubtotal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5sp"
+	    android:text="@string/Total"
+	    android:textColor="#000000"
+	    android:textStyle="bold" >
+</TextView>
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5sp"
+	    android:text="@string/EditarCantidad" >
+</TextView>
+	<ListView android:layout_height="wrap_content"
+		android:layout_weight="1" android:id="@+id/ListViewCatalog"
+		android:layout_width="fill_parent" android:background="#ffffff"
+		android:cacheColorHint="#ffffff" android:clickable="true"
+		android:choiceMode="multipleChoice">
+
+	</ListView>
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:layout_margin="5sp"
+		android:id="@+id/LinearLayoutCheckout" android:layout_gravity="right">
+
+		<Button
+		    android:id="@+id/Button02"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/Checkout" >
+</Button>
+	</LinearLayout>
+
+
+</LinearLayout>

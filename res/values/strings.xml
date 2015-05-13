@@ -3,15 +3,28 @@
 
     <string name="app_name">Proyecto</string>
     <string name="hello_world">Hello world!</string>
+    <string android:id="@+id/string1" name="Checkout" android:layout_width="wrap_content" android:layout_height="wrap_content">Proceder con la compra</string>
+    <string android:id="@+id/string1" name="cantidad" android:layout_width="wrap_content" android:layout_height="wrap_content">Cantidad</string>
+    <string android:id="@+id/string1" name="Elegir" android:layout_width="wrap_content" android:layout_height="wrap_content">Elegir cantidad</string>
+    <string android:id="@+id/string1" name="Precio" android:layout_width="wrap_content" android:layout_height="wrap_content">Precio del producto</string>
+    <string android:id="@+id/string1" name="Total" android:layout_width="wrap_content" android:layout_height="wrap_content">Total</string>
+    <string android:id="@+id/string1" name="Carrito" android:layout_width="wrap_content" android:layout_height="wrap_content">Carrito de compras</string>
+    <string android:id="@+id/string1" name="Catalogo" android:layout_width="wrap_content" android:layout_height="wrap_content">Catalogo de productos</string>
+    <string android:id="@+id/string1" name="EditarCantidad" android:layout_width="wrap_content" android:layout_height="wrap_content">Click en el producto para editar la cantidad</string>
+    <string android:id="@+id/string1" name="enCarro" android:layout_width="wrap_content" android:layout_height="wrap_content">Actualmente en el carro</string>
+    <string name="title_activity_login">Login</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_compras">Compras</string>
     <string name="title_activity_ventas">Carrito de Compra</string>
-    <string name="title_activity_login">Login</string>
     <string name="_login">" login"</string>
     <string name="comprar_productos">Comprar Productos</string>
-    <string android:layout_height="wrap_content" android:id="@+id/string2" android:layout_width="wrap_content" name="Tienda_web">Tienda Web</string>
-    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="carrito_compras">Carrito de compras</string>
-    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string3" name="user">User</string>
-    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string4" name="password">Password</string>
+    <string android:id="@+id/string2" name="Tienda_web" android:layout_width="wrap_content" android:layout_height="wrap_content">Tienda Web</string>
+    <string android:id="@+id/string1" name="carrito_compras" android:layout_width="wrap_content" android:layout_height="wrap_content">Carrito de compras</string>
+    <string android:id="@+id/string3" name="user" android:layout_width="wrap_content" android:layout_height="wrap_content">User</string>
+    <string android:id="@+id/string4" name="password" android:layout_width="wrap_content" android:layout_height="wrap_content">Password</string>
+    <string name="title_activity_vercompras">Vercompras</string>
+    <string name="title_activity_vcompra">Vcompra</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_agregar">Agregar</string>
 
 </resources>

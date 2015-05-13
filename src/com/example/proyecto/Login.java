@@ -1,6 +1,7 @@
 package com.example.proyecto;
 
 import com.example.parcial.R;
+import com.example.parcial.Registro;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,6 +16,7 @@ import android.widget.EditText;
 public class Login extends Activity {
 	
 	Button login;
+	Button registro;
 	Context contexto; 
 	EditText user;
 	EditText password;
@@ -25,6 +27,7 @@ public class Login extends Activity {
 		setContentView(R.layout.activity_login);
 		contexto=this.getApplicationContext();
 		login=(Button) findViewById(R.id.button1);
+		registro=(Button)findViewById(R.id.button2);
 		user = (EditText)findViewById(R.id.editText1);
 		password = (EditText)findViewById(R.id.editText2);
 		login.setOnClickListener(new View.OnClickListener() {
@@ -41,6 +44,15 @@ public class Login extends Activity {
             	}
             }
         });
+		registro.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent a=new Intent(contexto,Registro.class);
+				startActivity(a);
+				
+			}
+		});
 	}
 
 	@Override

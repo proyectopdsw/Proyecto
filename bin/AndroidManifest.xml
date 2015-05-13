@@ -34,6 +34,28 @@
             android:name="com.example.proyecto.MainActivity"
             android:label="/Proyecto/res/layout/activity_main.xml" >
         </activity>
+        <activity
+            android:name=".Vercompras"
+            android:label="@string/title_activity_vercompras" >
+        </activity>
+        <activity
+            android:name=".Vcompra"
+            android:label="@string/title_activity_vcompra" >
+        </activity>
+        <activity
+            android:name=".Registro"
+            android:label="@string/title_activity_registro" >
+        </activity>
+        <activity android:name="com.example.proyecto.DetallesProducto" >
+        </activity>
+        <activity android:name="com.example.proyecto.CarritoCompras" >
+        </activity>
+        <activity android:name="com.example.proyecto.CatalogoActividad" >
+        </activity>
+        <activity
+            android:name=".Agregar"
+            android:label="@string/title_activity_agregar" >
+        </activity>
     </application>
 
 </manifest>

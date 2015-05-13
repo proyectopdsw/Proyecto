@@ -1,5 +1,6 @@
 package com.example.proyecto;
 
+import com.example.parcial.Agregar;
 import com.example.parcial.R;
 
 import android.app.Activity;
@@ -16,6 +17,7 @@ public class MainActivity extends Activity {
 
 	Button compras;
 	Button carrito;
+	Button agregar;
 	Context contexto;
 	
     @Override
@@ -27,18 +29,28 @@ public class MainActivity extends Activity {
         compras.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-            	Intent menabrircompras=new Intent(contexto,Compras.class);
-            	startActivity(menabrircompras);	
+            	Intent c=new Intent(contexto,CatalogoActividad.class);
+            	startActivity(c);	
             }
         });
         carrito=(Button) findViewById(R.id.button2);
         carrito.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-            	Intent menabrircventas=new Intent(contexto,Carrito.class);
-            	startActivity(menabrircventas);	
+            	Intent d=new Intent(contexto,CarritoCompras.class);
+            	startActivity(d);	
             }
         });
+        agregar=(Button) findViewById(R.id.button3);
+        agregar.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent e=new Intent(contexto,Agregar.class);
+            	startActivity(e);
+			}
+		});
     }
 
 

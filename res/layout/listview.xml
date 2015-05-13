@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/Imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/ps3" />
+
+    <TextView
+        android:id="@+id/precioFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Imagen"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/Imagen"
+        android:text="Producto"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Imagen"
+        android:layout_alignLeft="@+id/precioFinal"
+        android:layout_marginBottom="18dp"
+        android:text="Precio"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
